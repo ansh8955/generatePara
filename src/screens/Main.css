@@ -1,7 +1,19 @@
 
 
-div #genbtn{
+#genbtn{
     background-color: #2D4157;
+    color: white;
+    border: none;
+    padding: 0.7%;
+    border-radius: 0.7rem;
+    margin: 1rem;
+    cursor: pointer;
+    margin-left: 0rem;
+}
+
+#genbtn:hover{
+
+    background-color: #81a1c4;
     color: white;
 }
 
@@ -13,4 +25,17 @@ div #genbtn{
 
 p{
     margin-bottom: 3%;
+}
+
+input{
+
+    margin: 0 3%;
+    padding: 0.5%;
+}
+
+.subdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

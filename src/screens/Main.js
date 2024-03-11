@@ -25,7 +25,7 @@ const Main = () => {
     <>
       <div>
         <h1>TIRED OF BORING LOREM IPSUM?</h1>
-        <div>
+        <div className="subdiv">
           <span>Paragraphs</span>
           <input
             type="number"
